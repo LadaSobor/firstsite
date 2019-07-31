@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <style>
+        .first-block {
+            width: 360px;
+            height: 250px;
+            background: url(2.jpeg) no-repeat center;
+            background-size: cover;
+            position: relative;
+        }
+        .coming-soon {
+            background: #333;
+            color:#f1f1f1;
+            padding: 5px;
+            font-size: 20px;
+            line-height: 20px;
+        }
+        .picture-block-left {
+            position: absolute;
+            bottom: 0px;
+            left: 0px;
+            width: 40%;
+            background: #333;
+            color:#f1f1f1;
+        }
+        .picture-block-right {
+            position: absolute;
+            bottom: 0px;
+            right: 0px;
+            width: 50%;
+           background: #333;
+        }
+        .picture-block-right tr {
+            text-align: center;
+            color:#f1f1f1;
+        }
+    </style>
+</head>
+<body>
+    <div class="first-block">
+       <span class="coming-soon">Скоро в продаже</span>
+       <div class="picture-block-left">$1,600,000 <br> Регион</div> 
+       <div class="picture-block-right"> 
+          <table>
+           <tr>
+               <td>5</td>
+               <td>5</td>
+               <td>130 </td>
+           </tr>
+              <tr>
+               <td>комнат</td>
+               <td>ванных комнат</td>
+               <td>м<sup>2</sup></td>
+           </tr>
+       </table> 
+       </div>
+    </div>
+</body>
+</html>
